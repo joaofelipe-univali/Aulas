@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+  
+  int vi;
+  
+  cout << "Digite um valor inteiro ";
+  
+  cin>> vi;
+  
+    if (vi % 2 == 0 ){
+      
+      cout << "seu numero é par";
+    } else {
+     
+     cout << "Seu numero é impar ";
+  } 
+
+
+
+
+
+return 0;
+
+}
