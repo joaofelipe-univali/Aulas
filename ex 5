@@ -1,0 +1,24 @@
+#include <iostream> 
+using namespace std;
+
+
+
+int main()
+{
+    int horas,minutos;
+    
+    cout << "Entre com um número para as horas: ";
+    cin >> horas;
+    
+    cout << "Entre com um número para os minutos: ";
+    cin >> minutos;
+    
+    if (horas < 25 and horas > -1 and minutos > 59 and minutos < -1){
+        
+        cout << "A hora é válida";
+    } else {
+        
+        cout << "A hora é inválida";
+    }
+    return 0;
+}
