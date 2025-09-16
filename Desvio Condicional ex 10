@@ -1,0 +1,32 @@
+#include <iostream> 
+using namespace std;
+
+
+int main()
+{
+    float lado,lado2,lado3;
+    
+    cout << "Digite o comprimeto de um lado do triangulo: ";
+    cin >> lado;
+    
+    cout << "Digite o comprimeto de um lado do triangulo: ";
+    cin >> lado2;
+    
+    cout << "Digite o comprimeto de um lado do triangulo: ";
+    cin >> lado3;
+    
+    if(lado == lado2 and lado2 == lado3){
+        
+        cout << "O triângulo é equilátero";
+        
+    } else if(lado != lado2 and lado2 != lado3 and lado != lado3){
+        
+        cout << "O triângulo é escaleno";
+        
+    } else{
+        
+        cout << "O triângulo é isósceles";
+    }
+
+    return 0;
+}
