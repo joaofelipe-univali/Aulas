@@ -1,0 +1,39 @@
+#include <iostream> 
+using namespace std;
+
+
+int main()
+{
+    
+    float numero,numero2,numero3;
+    
+    
+    cout << "Escreva um numero real: ";
+    cin >> numero;
+    
+    cout << "Escreva um numero real: ";
+    cin >> numero2;
+    
+    cout << "Escreva um numero real: ";
+    cin >> numero3;
+    
+    
+    if(numero < numero2 and numero < numero3){
+        
+        cout << "Este é o menor numero: ";
+        cout << numero;
+    } else if(numero2 < numero and numero2 < numero3){
+        
+        cout << "Este é o menor numero: ";
+        cout << numero2;
+        
+    }else{
+        
+        cout << "Este é o menor numero: ";
+        cout << numero3;
+    }
+    
+    
+
+    return 0;
+}
