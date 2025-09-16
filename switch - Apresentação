@@ -1,0 +1,31 @@
+#include <iostream> 
+using namespace std;
+
+int main()
+{
+    int opcao;
+    
+    cout << "Escolha um item do cardapio: ";
+    cin >> opcao;
+    
+    switch (opcao){
+        
+        case 1:
+        
+            cout << "Pão, 10 reais o Kg";
+            break;
+            
+        
+        case 0:
+        
+            cout << "Pão de queijo, 20 o Kg";
+            break;
+        
+        default:
+        
+            cout << "Não temos tantas opção";
+        
+    }
+
+    return 0;
+}
