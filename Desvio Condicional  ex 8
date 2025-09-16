@@ -1,0 +1,28 @@
+#include <iostream> 
+using namespace std;
+
+
+int main()
+{
+   float nota1,nota2,nota3,resultado;
+   
+   cout << "digite sua nota";
+   cin >> nota1;
+   
+   cout << "digite sua nota";
+   cin >> nota2;
+   
+   cout << "digite sua nota";
+   cin >> nota3;
+   
+   resultado =(nota1+nota2+nota3) / 3;
+   
+   
+   if(resultado > 6 or resultado == 6){
+       
+       cout << "Vc foi aprovado";
+   } else{
+       
+       cout << "vc foi reprovado";
+   }
+}
